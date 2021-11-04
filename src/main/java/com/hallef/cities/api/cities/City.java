@@ -27,11 +27,10 @@ public class City {
 
     private Integer ibge;
 
-    // 1st
     @Column(name = "lat_lon")
     private String geolocation;
 
-//    // 2nd
+
     @Type(type = "point")
     @Column(name = "lat_lon", updatable = false, insertable = false)
     private Point location;
@@ -39,15 +38,6 @@ public class City {
     public City() {
     }
 
-//    public City(final Long id, final String name, final Integer uf, final Integer ibge,
-//                final String geolocation, final Point location) {
-//        this.id = id;
-//        this.name = name;
-//        this.uf = uf;
-//        this.ibge = ibge;
-//        this.geolocation = geolocation;
-//        this.location = location;
-//    }
 
     public Long getId() {
         return id;
