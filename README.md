@@ -61,10 +61,10 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
     [`https://pure-mountain-15510.herokuapp.com/contries`](https://pure-mountain-15510.herokuapp.com/contries)
     `/{id}`
 
-- 📐Calculand o distancia entre duas cidades
+- 📐Calculando a distancia entre duas cidades
 
     `https://pure-mountain-15510.herokuapp.com/distances/by-cube?from={id}&to={id}`
-    
+
     - Tal end point trará resposta em metros.
 
 ---
