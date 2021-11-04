@@ -6,7 +6,7 @@
   API rest desenvolvida em JAVA e Spring Boot
 </h3>
 
-<p align="center">Nessa aplicação utilizei recursos como geo localização e coordenadas geograficas para calcular a distancia entre cidades utilizando recursos nativos dos Postgre que contem libs para calculo de coordenadas geograficas.</p>
+<p align="center">Nessa aplicação utilizei recursos como geo localização e coordenadas geográficas para calcular a distancia entre cidades utilizando recursos nativos dos Postgre, que contem bibliotecas nativas para calculo de coordenadas.</p>
 
 
 ## 💻 Dev
@@ -30,7 +30,7 @@
 1. Faça um clone desse repositório;
 2. Entre na pasta `cd cities.api`;
 3. Abra o codigo em sua IDE e aguarde seu `Gradle` atualiar
-4. Execute sua via classe `Main`
+4. Execute sua classe `Main`
 
 ## ⚡️ Como contribuir
 
@@ -44,24 +44,24 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 ## 📝 End Points
 
 - 🌃 Cidades
-  Contem dados de cidades do Brazil que são assesiveis por end points:
+  Contem dados de cidades do Brasil que são acessíveis por end points:
 
     [`https://pure-mountain-15510.herokuapp.com/cities`](https://pure-mountain-15510.herokuapp.com/cities)
     `/{id}`
 
 - 🗺 Estados
-    Contem dados dos estados Braseiros que são assesiveis por end points:
+    Contem dados dos estados Braseiros que são acessíveis por end points:
 
     [`https://pure-mountain-15510.herokuapp.com/states`](https://pure-mountain-15510.herokuapp.com/states)
     `/{id}`
 
 - 🌍 Paises
-    Contem dados de algusn Paises que estão assesiveis por end points:
+    Contem dados de alguns Paises que estão acessíveis por end points:
 
     [`https://pure-mountain-15510.herokuapp.com/contries`](https://pure-mountain-15510.herokuapp.com/contries)
     `/{id}`
 
-- 📐Calculando a distancia entre duas cidades
+- 📐 Calculando a distancia entre duas cidades:
 
     `https://pure-mountain-15510.herokuapp.com/distances/by-cube?from={id}&to={id}`
 
