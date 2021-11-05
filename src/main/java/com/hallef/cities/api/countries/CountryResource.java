@@ -14,7 +14,7 @@ import java.util.Optional;
 
 
 @RestController
-@RequestMapping("/countries")
+@RequestMapping("/countries") // Rota paises
 public class CountryResource {
 
     private CountryRepository repository;
@@ -23,12 +23,12 @@ public class CountryResource {
         this.repository = repository;
     }
 
-    @GetMapping
+    @GetMapping //Busca todos os Paises
     public Page<Country> countries(Pageable page) {
     return repository.findAll(page);
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/{id}") //Busca pais por ID
     public ResponseEntity getOne(@PathVariable Long id){
         Optional<Country> optional = repository.findById(id);
 
